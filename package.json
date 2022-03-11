@@ -1,0 +1,30 @@
+{
+  "name": "yayaya-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create": "./test.js"
+  },
+  "dependencies": {
+    "inquirer": "^4.0.0",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "download-git-repo": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watermalen-pan/YaYaYa-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/watermalen-pan/YaYaYa-cli/issues"
+  },
+  "homepage": "https://github.com/watermalen-pan/YaYaYa-cli#readme"
+}
